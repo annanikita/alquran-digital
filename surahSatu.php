@@ -8,6 +8,7 @@ $kSurah = $link -> query("SELECT * FROM Quran_Arb WHERE SuraID='$idSurah';");
 $fNma = $kSurah -> fetch_array();
 $nmaSurah = $fNma['surahName'];
 while($fSurah = $kSurah -> fetch_array()){
+	$dispant = "Ilmu Komputer - Aditia Darma Nasution";
 	$no = 1;
 	$ayat = $fSurah['AyahText'];
 	$idSurahEng = $fSurah['SuraID'];
