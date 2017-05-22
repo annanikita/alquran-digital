@@ -35,12 +35,7 @@ $kYg = $_GET['korY'];
       //$('#bodyUtama').load('coreMaps.php');   
       $('#btnCekLokasi').click(function(){
         var pesanKir = "Coba kirim variabel";
-        //alert(pesanKir);
-        //var korTotal = $('.optLok').attr("id");
-        //var korTotalArray = korTotal.split("|");
-        //var korXAr = $korTotalArray[0];
-        //var korYAr = $korTotalArray[1];
-        //alert(korTotalArray[1]);
+       
         var lokPnj = $('#cari').val();
         
         //alert(lokPnj);
