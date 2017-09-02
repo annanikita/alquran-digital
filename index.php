@@ -23,7 +23,18 @@
   <script>
   
     $(document).ready(function(){
-
+      
+      socket.on(){
+      //simpan objek DOM ke variabel biar gak capek
+      //--Bantuan kak anna :)
+        var tblLogin = $('#btnLogin');
+        
+        if (!roomExists(data.room)) {
+            addRoomTab(data.room);
+            addRoom(data.room);
+        }
+      }
+      
       $('#tblBaca').click(function(){
         var loading = "<i class='fa fa-spin fa-refresh'></i>";
         $('#divStatus').html(loading + " Memuat Al-Quran ...");
